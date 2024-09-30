@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(58, 52, 90);
+    color:white
+}
+
+
+
+*{
+    font-family: century gothic;
+    text-decoration: none;
+}
+
+
+
+div#ContT1   {
+    text-align: center;
+    width: 525px;
+    height: 100px;
+    margin: 40px auto;
+    background-color: rgb(36, 39, 39);
+    border-radius: 10px;
+}
+    
+div#ContT1 .T1 {
+    font-family: century gothic;
+    font-size: 500%;
+    color: rgb(255, 255, 255);
+}
+
+nav ul {
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    list-style-type: none;
+    background-color: rgb(36, 39, 39);
+    text-align: center;
+}
+
+nav li{
+    display: inline-flex;
+}
+
+nav a {
+    padding: 20px;
+    width: 150px;
+}
+
+nav ul a:hover {
+    background-color: rgb(100, 81, 126);
+}
+
+nav ul a:link {
+    color: white;}
+
+nav ul a:visited{
+    color: white; }
+
+div#bloque {
+    text-align: center;
+    width: 1025px;
+    height: 300px;
+    margin: 40px auto;
+    background-color: rgb(36, 39, 39);
+    border-radius: 10px;
+}
+
+div#bloque .T1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    font-size: 400%;
+}
+
+div#bloque .T1P1 {
+    color: white;
+    font-size: 150%;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+div#encuesta .formulario {
+    background-color: rgb(63, 66, 66);
+    width: 500px;
+    height: 950px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+div#encuesta {
+    text-align: center;
+    width: 1025px;
+    height: 1000px;
+    margin: 40px auto;
+    background-color: rgb(36, 39, 39);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+div#encuesta .T1P1{
+    color: white;
+    font-size: 150%;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+div#encuesta .T1P2 {
+    color: white;
+    font-size: 350%;
+    margin:0 auto;
+    text-align: center;
+}
+
+div#encuesta .PREGUNTAS {
+    color: white;
+    font-size: 140%;
+    margin:0 auto;
+    text-align: center;
+}
+
+div#encuesta #apellidos {
+    width: 80%;
+    height: 4%;
+}
+
+div#encuesta #name {
+    width: 80%;
+    height: 4%;
+}
+
+div#encuesta #edad {
+    width: 80%;
+    height: 4%;
+}
+
+div#encuesta #pregunta1 {
+
+    margin-right: 0.3rem;
+    min-height: 1rem;
+    min-width: 1rem;
+    padding: 10px;
+    color: white;
+}
+
+
+div#encuesta #Cuadro {
+    height: 120px;
+    width: 450px;
+    border-radius: 10px;
+}

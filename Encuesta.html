@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Encuesta.css" />
+</head>
+<body>
+    <div id="ContT1">
+        <h1 class="T1">SOBRE HTML</h1>
+     </div>
+     <nav>
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="Usando HTML.html">USANDO HTML</a></li>
+            <li><a href="Encuesta.html">ENCUESTA</a></li>
+            <li><a href="SobreNosotros.html">SOBRE NOSOTROS</a></li>
+        </ul>
+    </nav>
+
+    <div id="bloque">
+     <h1 class="T1">ENCUESTA</h1>
+     <p class="T1P1"> Queriamos que puedas ayudarnos rellenando esta pequeña encuesta sobre su experiencia en esta pagina</p>
+     <br>
+     <br>
+    </div>
+    <div id="encuesta">
+         <form class="formulario">
+        <h2 class="T1P2">DATOS</h2><br><br>
+          <label for="name" class="T1P1"> Nombre: </label><br>
+          <input type="text" name="Nombre de usuario" id="name" maxlength="30" placeholder="Ingrese su nombre..." required="required" /><br><br>
+          <label for="apellidos" class="T1P1"> Apellidos: </label><br>
+          <input type="text" name="Apellidos del usuario" id="apellidos" maxlength="30" placeholder="Ingrese sus apellidos..." required="required" /><br><br>
+          <label for"edad" class="T1P1"> Edad: </label><br>
+          <input type="number" name="Edad del usuario" id="edad" maxlength="3" placeholder="Ingrese su edad..." required="required" /><br><br>
+          <label for="sexomarcar" class="T1P1"> Sexo: </label> <br>
+          <input type="radio" name="sexo" value="femenino" checked="checked" id="sexomarcar"/> Femenino
+          <input type="radio" name="sexo" value="masculino" checked="checked" id="sexomarcar" /> Masculino <br><br>
+        <h2 class="T1P2"> ENCUESTA </h2><br><br>
+         <label for"pregunta1" class="PREGUNTAS"> ¿Que le ha parecido la pagina? </label><br><br>
+         <input type="checkbox" name="respuesta1" value="muy bien"  id="pregunta1" /> ¡Muy Bien! 
+         <input type="checkbox" name="respuesta1" value="aceptable"  id="pregunta1"/> Aceptable 
+         <input type="checkbox" name="respuesta1" value="falta"  id="pregunta1" /> Le falta algo... 
+         <input type="checkbox" name="respuesta1" value="mal"  id="pregunta1" /> ¡Muy mal! 
+         <br><br><br>
+         <label for"comentario" class="PREGUNTAS"> ¿Podrias dejarnos algun consejo para mejorar? </label> <br><br>
+         <textarea name="opinion" cols="20" rows="4" id="Cuadro"> Escribelo aqui... </textarea>
+         <br> 
+         <br>
+         <input type="submit" name="enviar" value="ENVIAR.." /> 
+       </form>
+    </div>
+</body>
+</html>
