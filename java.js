@@ -14,3 +14,7 @@ if (HoraActual > 18) {
 
 document.write('<h2 class="Saludo">' + saludoPag + '</h2>');
 
+function saludo() {
+    let nombre =document.getElementById("name").value;
+    alert("Gracias por llenar la encuesta" + " "+ nombre)
+}
