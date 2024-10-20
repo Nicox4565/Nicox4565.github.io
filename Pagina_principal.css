@@ -1,0 +1,229 @@
+
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: url(https://wallpapers.com/images/hd/4k-minimalist-phone-m67afrh85nnio920.jpg);
+}
+
+
+
+*{
+    font-family: century gothic;
+    text-decoration: none;
+}
+
+
+
+div#ContT1   {
+    text-align: center;
+    width: 525px;
+    height: 100px;
+    margin: 40px auto;
+    background-color: rgb(36, 39, 39);
+    border-radius: 10px;
+}
+    
+div#ContT1 .T1 {
+    font-family: century gothic;
+    font-size: 500%;
+    color: rgb(255, 255, 255);
+}
+
+nav ul {
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    list-style-type: none;
+    background-color: rgb(36, 39, 39);
+    text-align: center;
+}
+
+nav li{
+    display: inline-flex;
+}
+
+nav a {
+    padding: 20px;
+    width: 150px;
+}
+
+nav ul a:hover {
+    background-color: rgba(255, 255, 255, 0.295);
+}
+
+nav ul a:link {
+    color: white;}
+
+nav ul a:visited{
+    color: white; }
+
+
+div#ContT2 {
+    height: 250px;
+    margin: 40px auto;
+    background-color: rgb(36, 39, 39);
+    border-radius: 10px;
+    transform: scale(0.9);
+    transition: 1s ease-in-out all;
+}
+
+div#ContT2 .T2 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 300%;
+}
+
+div#ContT2 .T2P1 {
+    color: white;
+    padding:20px;
+}
+
+div#ContT2 .IMG1{
+
+text-align: right;
+padding: 5px;
+margin-top: -65px;
+border-radius: 10px;
+
+}
+
+div#ContT3 {
+    height: 455px;
+    margin: 40px auto;
+background-color: rgb(36, 39, 39);
+;    border-radius: 10px;
+    transform: scale(0.9);
+    transition: 1s ease-in-out all;
+}
+
+div#ContT3 .T3 {
+    color: white;
+    padding:20px;
+    text-align: center;
+    font-size: 300%
+}
+
+div#ContT3 .T3P1 {
+    color: white;
+    padding: 20px;
+    text-align: right;
+
+}
+
+div#ContT3 .IMG2 { 
+    margin-top: -85px;
+    padding: 5px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+
+div#ContT4 {
+    height: 360px;
+    margin: 40px auto;
+    background-color: rgb(36, 39, 39);
+    border-radius: 10px;
+    transform: scale(0.9);
+    transition: 1s ease-in-out all;
+}
+
+div#ContT4 .T4 {
+    color: white;
+    padding:20px;
+    text-align: center;
+    font-size: 300%
+}
+
+div#ContT4 .T4P1 {
+    color: white;
+    padding: 20px;
+    text-align: left;
+    font-size: 110%;
+}
+
+div#ContT4 .IMG3{
+    margin-top: -55px;
+    padding: 5px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+
+.tabla {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -25px;
+}
+
+div#ContT5{
+    height: 520px;
+    margin: 40px auto;
+    background-color: rgb(36, 39, 39);
+    border-radius: 10px;
+    transform: scale(0.9);
+    transition: 1s ease-in-out all;
+}
+
+div#ContT5 .T5 {
+    color: white;
+    padding:20px;
+    text-align: center;
+    font-size: 300%
+}
+
+div#ContT5 .T5P1 {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 120%;
+    
+}
+
+div#ContT5 th td{
+    padding: 50px 50px 50px 50px;
+}
+
+div#ContT5 .celda {
+   background-color: rgb(130, 148, 148);
+}
+
+div#ContT5 th {
+    border-color:blue ;
+}
+
+.Saludo{
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    padding: 5px;
+    margin-top: -1990px;
+    margin-right: 1080px;
+}
+
+.ContSaludo{
+    background-color: rgb(36, 39, 39);
+    height: 100px;
+    width: 250px;
+    margin-bottom: -150px;
+    border-radius: 5px;
+}
+
+div#ContT2.visible {
+    transform: scale(1);
+    background-color: rgb(36, 39, 39);
+}
+
+
+div#ContT3.visible {
+    transform: scale(1);
+    background-color: rgb(36, 39, 39);
+}
+
+div#ContT4.visible {
+    transform: scale(1);
+    background-color: rgb(36, 39, 39);
+}
+
+div#ContT5.visible {
+    transform: scale(1);
+    background-color: rgb(36, 39, 39);
+}
